@@ -9,8 +9,8 @@ The "run_analysis.R" script reads:
  - the activity label file ("activity_labels.txt")
  - the activity classes for each data sets
 and produces:
- - a dataset (named "Prog_Ass_Dat01.csv") composed by all the observations in the training and test set, the resulting activity    class (its descriptive label), the subject related to the observation
- - a dataset (named "Prog_Ass_Dat02.csv") derived from the first one which each variables is aggregated by the activity class      and subject
+ - a dataset (named "Prog_Ass_Dat01.txt") composed by all the observations in the training and test set, the resulting activity    class (its descriptive label), the subject related to the observation
+ - a dataset (named "Prog_Ass_Dat02.txt") derived from the first one which each variables is aggregated by the activity class      and subject
 
 ## The run_analysis.R script
 The script performs the follows operations:
