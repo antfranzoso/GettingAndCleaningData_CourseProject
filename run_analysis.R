@@ -63,8 +63,8 @@ names(dataset) <-
                 gsub("[/.]{2,}", "_", x)))
   )
 
-#Write the resulting dataset as csv file and clear the workspace
-write.csv(x = dataset, file = "Prog_Ass_Dat01.csv")
+#Write the resulting dataset as txt file and clear the workspace
+write.table(x = dataset, file = "Prog_Ass_Dat01.txt", row.names = FALSE)
 rm(
   activitylabels,
   classes,
@@ -85,5 +85,5 @@ dataset2 <-
     mean
   )
 #Write the second dataset on the disk and clean the workspace
-write.csv(x = dataset2, file = "Prog_Ass_Dat02.csv")
+write.table(x = dataset2, file = "Prog_Ass_Dat02.txt", row.names = FALSE)
 rm(dataset, dataset2)
